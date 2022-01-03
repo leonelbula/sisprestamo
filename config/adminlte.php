@@ -245,7 +245,7 @@ return [
         ],
         [
             'text'        => 'Clientes',
-            'url'         => 'admin/pages',
+            'route'         => 'cliente.index',
             'icon'        => 'fas fa-users',
 
         ],

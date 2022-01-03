@@ -9,6 +9,14 @@ class Client extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['fullname',
+                           'identification',
+                           'direction',
+                           'town',
+                           'department',
+                           'phone',
+                           'email'];
+
     public function prestamo(){
 
         return $this->hasMany(Prestamo::class);
